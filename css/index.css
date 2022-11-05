@@ -5,11 +5,10 @@ body {
   height: 100%;
 }
 
-body{
+/* body{
   width: 1920px;
 height: 4400px;
-
-}
+} */
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
@@ -137,8 +136,11 @@ b {
 
 /* added background image */
 .jumbotron {
+  /* width: 1920px;
+  height: 4400px; */
   background-image: url('/images/bg-img.svg');
   margin-bottom: 0px;
+  background-attachment: fixed;
 }
 
 .device-container{
@@ -160,4 +162,60 @@ b {
 }
 .section-heading{
   text-align: center;
+}
+
+/* midsectio: testi */
+.testimonials *> .centre-items{
+  margin-left: 15px; 
+  margin-right: 15px; 
+}
+.testimonials,
+.testimonial-item{
+  text-align: center;
+}
+
+/* sign up */
+.signup-section{
+  
+}
+#signup{
+  text-align: center;
+  background-color: bisque;
+  background-image: url('/images/SF.svg');
+  background-size: cover;
+}
+
+.social{
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social > i { 
+  margin-left: 15px; 
+  margin-right: 15px; 
+}
+
+.center-subs{
+  margin-right: 270px ;
+  width:50% /* value of your choice which suits your alignment */
+}
+
+/* content, icons */
+.bg-black{
+  background-color: black;
+}
+
+.center-icons{
+  margin-left: 270px ;
+  width:50% /* value of your choice which suits your alignment */
+}
+
+/* footer */
+.footer{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  background-color: gray;
+  padding: 20px;
 }

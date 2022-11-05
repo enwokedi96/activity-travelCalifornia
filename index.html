@@ -56,24 +56,24 @@
     <section class="testimonials">
         <div class="container">
             <h2>What people are saying...</h2>
-            <div class="row">
+            <div class="row centre-items">
                 <div class="col-lg-4">
                     <div class="testimonial-item">
-                        <img src="/images/testimonials-1.jpg">
+                        <img src="/images/testimonials-1.jpg"  class="img-fluid rounded-circle">
                         <h5>Abby</h5>
                         <p>Never new travel could be so awesome, so meticulous. I felt their presence every step of my journey</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item">
-                        <img src="/images/testimonials-2.jpg">
+                        <img src="/images/testimonials-2.jpg" class="img-fluid rounded-circle">
                         <h5>Jamie</h5>
                         <p>It's been one heck of a ride for me; the hotals, the spa, the theme parks, all planned out so awesome. Definitely coming again next year.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item">
-                        <img src="/images/testimonials-3.jpg">
+                        <img src="/images/testimonials-3.jpg"  class="img-fluid rounded-circle">
                         <h5>Gracias</h5>
                         <p>The customer service was top notch, and even when I needed to revise my plans at short notice, they went all in at no added expense.</p>
                     </div>
@@ -83,14 +83,34 @@
     </section>
 
     <section class="signup-section" id="signup">
-        <div class="container">
+        <div class="container center-subs">
             <div class="row">
                 <div class="col-lg-8">
                     <i></i>
                     <h2>Subscribe to receive more updates!</h2>
+                    
                     <form>
-                        <input> <button>Subscribe</button>
+                    <div class="form-row align-items-center">
+                        <div class="col-md-6 col-md-offset-3">
+                            <label class="sr-only" for="inlineFormInputName">Name</label>
+                            <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane.Doe">
+                          </div>
+                        <div class="col-auto my-1">
+                            <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">email</label>
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option selected>Choose...</option>
+                                <option value="gmail">gmail.com</option>
+                                <option value="yahoo">yahoo.com</option>
+                                <option value="outlook">outlook.com</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-auto my-1">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </div>
                     </form>
+
                 </div>
             </div>
         </div>
@@ -104,21 +124,31 @@
                     <div class="card">
                         <div class="card-body">
                             <i></i>
-                            <h4 class="text-uppercase"></h4>
+                            <h4 class="text-uppercase">ADDRESS</h4>
                             <div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--SECOND ROW-->
-            <div class="row">
+
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
                             <i></i>
-                            <h4 class="text-uppercase"></h4>
+                            <h4 class="text-uppercase">EMAIL</h4>
+                            <div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i></i>
+                            <h4 class="text-uppercase">PHONE</h4>
                             <div>
                                 
                             </div>
@@ -126,32 +156,21 @@
                     </div>
                 </div>
             </div>
-            <!--THIRD ROW-->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <i></i>
-                            <h4 class="text-uppercase"></h4>
-                            <div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--SOCIAL -->
-            <div class="social">
-                <i class="fa-brands fa-facebook fa-lg">facebook</i>
-                <i class="fa-brands fa-twitter fa-lg">twitter</i>
-                <i class="fa-brands fa-github fa-lg">github</i>
-            </div>
+
+        <!--SOCIAL -->
+        <div class="row">
+            <div class="social center-icons">
+                
+                <i class="fa-brands fa-facebook fa-lg"> facebook </i>
+                <i class="fa-brands fa-twitter fa-lg"> twitter </i>
+                <i class="fa-brands fa-github fa-lg"> github </i> 
+            </div> </div>
         </div>
     </section>
 
     <div class="footer">
         <div>
-            <p>Copyright @Ezechukwu Nwokedi 2022</p>
+            <p>Copyright: Ezechukwu Nwokedi 2022</p>
         </div>
     </div>
 
