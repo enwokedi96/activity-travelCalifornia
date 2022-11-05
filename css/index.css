@@ -192,14 +192,19 @@ b {
   justify-content: center;
 }
 
-.social > i { 
+.social > a { 
   margin-left: 15px; 
   margin-right: 15px; 
+  color: gray;
 }
 
 .center-subs{
   margin-right: 270px ;
   width:50% /* value of your choice which suits your alignment */
+}
+
+.card-dims{
+  height: 150px;
 }
 
 /* content, icons */
@@ -215,7 +220,6 @@ b {
 /* footer */
 .footer{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 400;
   background-color: gray;
   padding: 20px;
 }
