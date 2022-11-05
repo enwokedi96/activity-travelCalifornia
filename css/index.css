@@ -5,6 +5,12 @@ body {
   height: 100%;
 }
 
+body{
+  width: 1920px;
+height: 4400px;
+
+}
+
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
@@ -44,6 +50,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 section {
@@ -52,4 +59,105 @@ section {
 
 section h2 {
   font-size: 50px;
+}
+
+/*navigation*/
+
+#travelCali{
+  position: absolute;
+  left: 8.85%;
+  right: 77.19%;
+  top: 0.7%;
+  bottom: 97.8%;
+
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFE000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#mainNav{
+  position: absolute;
+  left: 8.85%;
+  right: 10.89%;
+  top: 0.7%;
+  bottom: 97.8%;
+  margin-top: 10px;
+}
+
+#mainNav ul{
+  position: absolute;
+  left: 70.73%;
+  right: 10.89%;
+  top: 1.23%;
+  bottom: 98.07%;
+
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* letter-spacing: 0.035em; */
+
+  color: #FFFFFF;
+}
+
+.hero-copy{
+  border-radius: 100px;
+  left: -75px;
+
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 102.5%;
+  /* or 70px */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+/* boldface for jumbotron text */
+b {
+  font-weight: 600;
+}
+
+/* added background image */
+.jumbotron {
+  background-image: url('/images/bg-img.svg');
+  margin-bottom: 0px;
+}
+
+.device-container{
+  top: 0px;
+  left: 50px;
+}
+
+/* mid section; download */
+.download{
+  background-color: #fcbd20;
+  margin: 0;
+  padding: auto;
+}
+.badges,
+.centre-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-heading{
+  text-align: center;
 }
