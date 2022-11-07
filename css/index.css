@@ -220,6 +220,7 @@ b {
 /* footer */
 .footer{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
   background-color: gray;
   padding: 20px;
 }
